@@ -1,16 +1,7 @@
-import {
-  Component,
-  OnInit,
-  ElementRef,
-  Input,
-  Output,
-  EventEmitter,
-  OnDestroy,
-  NgZone,
-  Inject
-} from '@angular/core';
-import { QuillEditorService } from '../quill-editor.service';
 import { DOCUMENT } from '@angular/common';
+import { Component, ElementRef, EventEmitter, Inject, Input, NgZone, OnDestroy, OnInit, Output } from '@angular/core';
+
+import { QuillEditorService } from '../quill-editor.service';
 
 declare var Quill: any;
 
@@ -47,9 +38,9 @@ export class QuillEditorComponent implements OnInit, OnDestroy {
       return;
     }
     // use generic align styles
-    const align = Quill.import('attributors/style/align');
-    align.whitelist = ['right', 'center', 'justify'];
-    Quill.register(align, true);
+    // const align = Quill.import('attributors/style/align');
+    // align.whitelist = ['right', 'center', 'justify'];
+    // Quill.register(align, true);
 
     const toolbarElem = this.elementRef.nativeElement.querySelector(
       '[quill-editor-toolbar]'
