@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ngx-quill-lite
+ */
+export * from './lib/quill-editor.service';
+export * from './lib/quill-editor/quill-editor.component';
+export * from './lib/ngx-quill-lite.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1xdWlsbC1saXRlL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyw0QkFBNEIsQ0FBQztBQUMzQyxjQUFjLDJDQUEyQyxDQUFDO0FBQzFELGNBQWMsNkJBQTZCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1xdWlsbC1saXRlXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvcXVpbGwtZWRpdG9yLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvcXVpbGwtZWRpdG9yL3F1aWxsLWVkaXRvci5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXF1aWxsLWxpdGUubW9kdWxlJztcbiJdfQ==
