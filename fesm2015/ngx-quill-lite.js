@@ -1,7 +1,7 @@
-import { ɵɵdefineInjectable, ɵɵinject, Injectable, Inject, EventEmitter, Component, ElementRef, NgZone, Input, Output, NgModule } from '@angular/core';
-import { forkJoin, ReplaySubject } from 'rxjs';
-import { DOCUMENT, CommonModule } from '@angular/common';
+import { CommonModule, DOCUMENT } from '@angular/common';
+import { Component, ElementRef, EventEmitter, Inject, Injectable, Input, NgModule, NgZone, Output, ɵɵdefineInjectable, ɵɵinject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { forkJoin, ReplaySubject } from 'rxjs';
 
 class QuillEditorService {
     constructor(document) {
@@ -81,9 +81,9 @@ class QuillEditorComponent {
             return;
         }
         // use generic align styles
-        const align = Quill.import('attributors/style/align');
-        align.whitelist = ['right', 'center', 'justify'];
-        Quill.register(align, true);
+        // const align = Quill.import('attributors/style/align');
+        // align.whitelist = ['right', 'center', 'justify'];
+        // Quill.register(align, true);
         const toolbarElem = this.elementRef.nativeElement.querySelector('[quill-editor-toolbar]');
         const editorElem = this.elementRef.nativeElement.querySelector('[quill-editor-container]');
         this.quillEditor = new Quill(editorElem, {
