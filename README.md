@@ -13,6 +13,13 @@ Dependencies: @angular/common, @angular/core, @angular/forms, @angular/platform-
 
 1. Optimized toolbar and default configurations for common usages.
 
+1. This component binds the following:
+
+```TypeScript
+  @Input() html = '';
+  @Output() htmlChange = new EventEmitter<string>();
+```
+
 ### Notes
 
 This library is not intended to be widely used. It is build to fit my own needs.
@@ -28,13 +35,6 @@ Extending this library is in my plan. PRs are welcome too.
 1. Import `NgxQuillLite` module into the module uses Quill rich text editor.
 
 1. Include quill-editor by `<quill-editor [(html)]="html"></quill-editor>` in your component. `quill-editor` has two way bindings with your `html` string.
-
-1. This component binds the following:
-
-```TypeScript
-  @Input() html = '';
-  @Output() htmlChange = new EventEmitter<string>();
-```
 
 ## Why this library
 

@@ -1,41 +1,67 @@
 {
-  "name": "ngx-quill-lite-demo",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "build:lib": "ng build ngx-quill-lite --prod",
-    "build:prod": "ng build --prod",
-    "build:netlify": "ng build ngx-quill-lite --prod & ng build --prod",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+  "_from": "ngx-quill-lite@^10.0.0",
+  "_id": "ngx-quill-lite@10.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-LMDN4CqoIBIIPVKgiRm1Y8uh7kz40zeWwPR1bov2XQ9q0VrSwFA/8Rin4e9sGalzcHal1lOQijDOPRc08O35oQ==",
+  "_location": "/ngx-quill-lite",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "ngx-quill-lite@^10.0.0",
+    "name": "ngx-quill-lite",
+    "escapedName": "ngx-quill-lite",
+    "rawSpec": "^10.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^10.0.0"
   },
-  "private": true,
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngx-quill-lite/-/ngx-quill-lite-10.0.0.tgz",
+  "_shasum": "b9751bbb9554b58d56fc01fe9284f0df76d9947b",
+  "_spec": "ngx-quill-lite@^10.0.0",
+  "_where": "C:\\Users\\sushi\\WORK\\bountie-app",
+  "author": {
+    "name": "Changhui Xu",
+    "email": "changhuixu@hotmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/changhuixu/ngx-quill-lite/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
-    "@angular/animations": "~10.0.3",
-    "@angular/common": "~10.0.3",
-    "@angular/compiler": "~10.0.3",
-    "@angular/core": "~10.0.3",
-    "@angular/forms": "~10.0.3",
-    "@angular/platform-browser": "~10.0.3",
-    "@angular/platform-browser-dynamic": "~10.0.3",
-    "@angular/router": "~10.0.3",
-    "rxjs": "~6.5.4",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.10.2"
+    "tslib": "^2.0.0"
   },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1000.2",
-    "@angular-devkit/build-ng-packagr": "~0.1000.2",
-    "@angular/cli": "~10.0.2",
-    "@angular/compiler-cli": "~10.0.3",
-    "@angular/language-service": "~10.0.3",
-    "@types/node": "^12.11.1",
-    "ng-packagr": "^10.0.0",
-    "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
-    "typescript": "~3.9.6"
-  }
+  "deprecated": false,
+  "description": "A light weight Angular wrapper of Quilljs, powerful rich text editor.",
+  "es2015": "fesm2015/ngx-quill-lite.js",
+  "esm2015": "esm2015/ngx-quill-lite.js",
+  "fesm2015": "fesm2015/ngx-quill-lite.js",
+  "homepage": "https://github.com/changhuixu/ngx-quill-lite#readme",
+  "keywords": [
+    "Angular",
+    "quill",
+    "quilljs",
+    "rich text editor",
+    "lazy loading"
+  ],
+  "license": "MIT",
+  "main": "bundles/ngx-quill-lite.umd.js",
+  "metadata": "ngx-quill-lite.metadata.json",
+  "module": "fesm2015/ngx-quill-lite.js",
+  "name": "ngx-quill-lite",
+  "peerDependencies": {
+    "@angular/common": ">=10.0.0",
+    "@angular/core": ">=10.0.0",
+    "@angular/forms": ">=10.0.0",
+    "@angular/platform-browser": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changhuixu/ngx-quill-lite.git"
+  },
+  "sideEffects": false,
+  "typings": "ngx-quill-lite.d.ts",
+  "version": "10.0.0"
 }
